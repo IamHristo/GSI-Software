@@ -1,0 +1,79 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "GSI-Software/1.0.0": {
+        "dependencies": {
+          "MahApps.Metro": "1.6.5",
+          "MahApps.Metro.IconPacks": "2.3.0"
+        },
+        "runtime": {
+          "GSI-Software.dll": {}
+        }
+      },
+      "ControlzEx/3.0.2.4": {
+        "runtime": {
+          "lib/net45/ControlzEx.dll": {
+            "assemblyVersion": "3.0.2.4",
+            "fileVersion": "3.0.2.4"
+          },
+          "lib/net45/System.Windows.Interactivity.dll": {
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "3.0.40218.0"
+          }
+        }
+      },
+      "MahApps.Metro/1.6.5": {
+        "dependencies": {
+          "ControlzEx": "3.0.2.4"
+        },
+        "runtime": {
+          "lib/net46/MahApps.Metro.dll": {
+            "assemblyVersion": "1.6.5.1",
+            "fileVersion": "1.6.5.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks/2.3.0": {
+        "runtime": {
+          "lib/net46/MahApps.Metro.IconPacks.dll": {
+            "assemblyVersion": "2.3.0.4",
+            "fileVersion": "2.3.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GSI-Software/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ControlzEx/3.0.2.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5pgvHE329JDDPwPHCVJe93yxu3CPl2wPh6ma1watUAGjvBtNSMkDcyzvwZcHSryihA/y4Ml3OmDYz9vj7Fg6Xg==",
+      "path": "controlzex/3.0.2.4",
+      "hashPath": "controlzex.3.0.2.4.nupkg.sha512"
+    },
+    "MahApps.Metro/1.6.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XFxACnPbTAZ9qYcXMqFDLXXEpAbLj3BYaXqwH8NoY0sfSAYepEpE4C53Nd6AI4TnQ+nmDugtO8dwsAXPtt0SXQ==",
+      "path": "mahapps.metro/1.6.5",
+      "hashPath": "mahapps.metro.1.6.5.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c9fy3MA/a5SnAC4n8RPxyGt/v7gUGPvuf8DEeHPEc9ZCaVOJLXhpGCpF8461S3QTAAheFw3XYL9efxAuZOIeGg==",
+      "path": "mahapps.metro.iconpacks/2.3.0",
+      "hashPath": "mahapps.metro.iconpacks.2.3.0.nupkg.sha512"
+    }
+  }
+}
